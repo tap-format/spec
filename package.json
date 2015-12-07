@@ -27,6 +27,10 @@
   },
   "homepage": "https://github.com/untap/spec#readme",
   "dependencies": {
+    "@untap/exit": "^0.1.0",
+    "@untap/failures": "^0.1.0",
+    "@untap/parser": "^0.1.0",
+    "@untap/results": "^0.1.0",
     "chalk": "^1.1.1",
     "figures": "^1.4.0",
     "rx": "^4.0.7"
