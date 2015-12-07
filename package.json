@@ -1,0 +1,34 @@
+{
+  "name": "@untap/spec",
+  "version": "0.1.0",
+  "description": "Formatted tests like Mocha's spec reporter for TAP output",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "untap-spec": "bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untap/spec.git"
+  },
+  "keywords": [
+    "untap",
+    "spec",
+    "reporter",
+    "format",
+    "tap"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/untap/spec/issues"
+  },
+  "homepage": "https://github.com/untap/spec#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "figures": "^1.4.0",
+    "rx": "^4.0.7"
+  }
+}
