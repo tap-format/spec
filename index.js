@@ -7,7 +7,7 @@ var exitOnFailure = require('@untap/exit')
 
 var formatAssertionError = formatFailures.formatAssertionError
 
-module.exports = function (input$) {
+var exports = module.exports = function (input$) {
 
   return Rx.Observable
     .merge(
@@ -17,6 +17,8 @@ module.exports = function (input$) {
       exitOnFailure(input$)
     )
 }
+
+exports.format = formatTestsAndAssertions
 
 function formatTestsAndAssertions (input$) {
 
