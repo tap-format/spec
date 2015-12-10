@@ -1,9 +1,9 @@
 var Rx = require('rx')
 var figures = require('figures')
 var format = require('chalk')
-var formatFailures = require('@untap/failures')
-var formatResults = require('@untap/results')
-var exitOnFailure = require('@untap/exit')
+var formatFailures = require('@tap-format/failures')
+var formatResults = require('@tap-format/results')
+var exitOnFailure = require('@tap-format/exit')
 
 var formatAssertionError = formatFailures.formatAssertionError
 

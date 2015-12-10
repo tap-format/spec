@@ -1,5 +1,5 @@
 {
-  "name": "@untap/spec",
+  "name": "@tap-format/spec",
   "version": "0.1.0",
   "description": "Formatted tests like Mocha's spec reporter for TAP output",
   "main": "index.js",
@@ -7,14 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "untap-spec": "bin/cmd.js"
+    "tap-format-spec": "bin/cmd.js",
+    "tf-spec": "bin/cmd.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/untap/spec.git"
+    "url": "git+https://github.com/tap-format/spec.git"
   },
   "keywords": [
-    "untap",
+    "tap-format",
     "spec",
     "reporter",
     "format",
@@ -23,14 +24,14 @@
   "author": "Scott Corgan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/untap/spec/issues"
+    "url": "https://github.com/tap-format/spec/issues"
   },
-  "homepage": "https://github.com/untap/spec#readme",
+  "homepage": "https://github.com/tap-format/spec#readme",
   "dependencies": {
-    "@untap/exit": "^0.1.0",
-    "@untap/failures": "^0.1.0",
-    "@untap/parser": "^0.1.0",
-    "@untap/results": "^0.1.0",
+    "@tap-format/exit": "0.2.0",
+    "@tap-format/failures": "0.2.0",
+    "@tap-format/parser": "0.2.0",
+    "@tap-format/results": "0.2.0",
     "chalk": "^1.1.1",
     "figures": "^1.4.0",
     "rx": "^4.0.7"
